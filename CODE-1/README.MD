@@ -30,8 +30,9 @@ The script operates by performing the following steps:
 
 ## Installation
 Ensure that Python and pip are already installed on your system. Then install the required Python packages:
+#this CSV file can be connected to the database like PostgreSQL and can be used for analysis
+
 
 ```bash
 pip install selenium beautifulsoup4 pandas
 
-#this CSV file can be connected to the database like PostgreSQL and can be used for analysis
