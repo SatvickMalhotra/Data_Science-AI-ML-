@@ -16,13 +16,12 @@ def add_days_to_date(date_str, days):
     return (date_obj + timedelta(days=days)).strftime('%Y-%m-%d')
 
 # Set up the Chrome WebDriver
-#chrome_driver_path = r'C:\Users\satvi\Python_codes\chromedriver-win64\chromedriver.exe' # Replace with your actual ChromeDriver path
-chrome_driver_path = r'C:\Users\satvi\Python_codes\chromedriver-win64\chromedriver.exe'  # Path to your ChromeDriver
+chrome_driver_path = r'C:\Users\chromedriver.exe'  # Path to your ChromeDriver
 
 driver = webdriver.Chrome(service=Service(chrome_driver_path))
 
 # Navigate to the login page
-val = 'https://a2.m-insure.in/mydbr/report.php?r=68&m=10&h=7716ae9317c8107ac40c0274d9be4aa1862faf42&i=1' # Replace with your inventory link
+val = 'Link' # Replace with your inventory link
 driver.get(val)
 
 # Log in to the page
@@ -30,8 +29,8 @@ input_username = driver.find_element(By.ID, 'username')
 input_password = driver.find_element(By.ID, 'password')
 login_btn = driver.find_element(By.ID, 'login_button')
 
-input_username.send_keys('satvick_malhotra') # Replace with your actual username
-input_password.send_keys('kukka2001hello') # Replace with your actual password
+input_username.send_keys('') # Replace with your actual username
+input_password.send_keys('') # Replace with your actual password
 login_btn.click()
 
 # Wait for the report page to load after login
@@ -85,6 +84,6 @@ for interval in range(total_intervals):
 all_clinics_df = pd.concat(all_data, ignore_index=True)
 
 # Save the concatenated DataFrame to a CSV file
-all_clinics_df.to_csv(r'C:\Users\satvi\OneDrive\Pictures\extracted_data_test.csv', index=False)
+all_clinics_df.to_csv(r'C:\Users\extracted_data_test.csv', index=False)
 
 driver.quit()
