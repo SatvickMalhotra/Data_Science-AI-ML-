@@ -1,44 +1,35 @@
-Selenium Web Scraping for Report Generation
-Overview
-This Python script automates the process of logging into a web-based reporting system, setting date ranges, running reports, and scraping the resulting data into a CSV file. It's designed to handle cases where data needs to be gathered in chunks over a period, due to limitations on the amount of data that can be processed at one time.
+# Selenium Web Scraping Script for Report Generation
 
-How It Works
-The script performs the following steps:
+## Overview
+This repository contains a Python script that automates the process of logging into a web-based reporting system, setting date ranges, running reports, and scraping the resulting data into a CSV file. This script is particularly useful for gathering data in intervals when a system limits the amount of data retrieved in a single request.
 
-Initial Setup: It imports necessary Python libraries and defines a function to calculate future dates based on a given interval.
+## How the Script Works
+The script operates by performing the following steps:
 
-WebDriver Initialization: It sets up the Chrome WebDriver, which will control the Chrome browser.
+1. **Initialize the WebDriver**: Set up Selenium WebDriver for Chrome to control browser actions.
+2. **Login to the Reporting System**: Access the login page, fill in credentials, and submit the form to authenticate.
+3. **Set Date Ranges for Reports**: Iterate over a series of date ranges, inputting the start and end dates for each report.
+4. **Run Reports**: Trigger the generation of reports by simulating a button click.
+5. **Scrape Data**: Extract the data from the generated reports using BeautifulSoup.
+6. **Aggregate Data**: Combine data from each interval into a single DataFrame.
+7. **Save Data**: Output the aggregated data to a CSV file for further analysis or storage.
+8. **Close the Browser**: Terminate the WebDriver session and close the browser window.
 
-Login Automation: The script navigates to the login page, enters the username and password into the form, and submits the form to log into the reporting system.
+## Features
+- **Selenium WebDriver**: For automating web browser interaction.
+- **BeautifulSoup**: For parsing HTML documents and extracting the data.
+- **Pandas**: For data manipulation and analysis.
+- **Datetime**: For handling dates and times.
 
-Date Range Input: For each interval within the total period (e.g., every 4 days within 80 days), it inputs the start and end dates into the report parameters.
+## Requirements
+- Python 3.x
+- Selenium (`pip install selenium`)
+- BeautifulSoup (`pip install beautifulsoup4`)
+- Pandas (`pip install pandas`)
+- ChromeDriver (Compatible with the version of the Chrome browser installed on your system)
 
-Option Selection: It selects the 'Clinic Only' option based on the provided criteria.
+## Installation
+Ensure that Python and pip are already installed on your system. Then install the required Python packages:
 
-Report Generation: It triggers the report generation by clicking the 'Run report' button.
-
-Data Scraping: Once the report is generated, the script scrapes the table data using BeautifulSoup and stores it in a pandas DataFrame.
-
-Data Aggregation: After collecting data from each interval, it concatenates all individual DataFrames into one.
-
-Saving Data: The final aggregated data frame is saved as a CSV file to a specified location.
-
-Clean Exit: The browser is closed, and the WebDriver session is ended gracefully.
-
-Features and Libraries Used
-Selenium: Automates web browser interaction from Python.
-BeautifulSoup: Parses HTML and XML documents and extracts data.
-Pandas: Provides data structures and data analysis tools.
-DateTime: Supplies classes for manipulating dates and times.
-Time: Allows for a delay in the script execution, which is useful for waiting for pages to load.
-Requirements
-Chrome Browser installed on the machine.
-ChromeDriver is compatible with the installed Chrome version.
-Python libraries: selenium, pandas, beautifulsoup4, datetime.
-Usage
-To use this script, update the placeholders with your actual ChromeDriver path, login URL, username, and password. Set the initial_start_date, days_to_add, and total_intervals as per the requirements. Run the script in a Python environment with all necessary libraries installed.
-
-Notes
-The script may require adjustments based on the web page's specific structure and behaviour.
-Make sure to follow best practices for handling passwords and sensitive data, especially when pushing code to public repositories.
-The script's performance and reliability can vary based on network conditions and the responsiveness of the web application.
+```bash
+pip install selenium beautifulsoup4 pandas
