@@ -1,4 +1,4 @@
-# Selenium Web Scraping Script for Report Generation
+# Selenium Web Scraping Script for Report Automation
 
 ## Overview
 This repository contains a Python script that automates the process of logging into a web-based reporting system, setting date ranges, running reports, and scraping the resulting data into a CSV file. This script is particularly useful for gathering data in intervals when a system limits the amount of data retrieved in a single request.
@@ -33,3 +33,5 @@ Ensure that Python and pip are already installed on your system. Then install th
 
 ```bash
 pip install selenium beautifulsoup4 pandas
+
+#this CSV file can be connected to the database like PostgreSQL and can be used for analysis
