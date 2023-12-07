@@ -15,9 +15,8 @@ Personal Introduction 🙋‍♂️
 I'm Satvick Malhotra, a data engineer at M-SWASTH Solutions, skilled in Python, SQL, Excel, Power BI, and more. I've played a pivotal role in optimizing business operations through data-driven strategies, showcasing my project leadership and innovative problem-solving abilities. My work includes developing AI-driven algorithms, enhancing data processing speeds significantly. Apart from being a tech enthusiast, I'm a food blogging expert and a dedicated volunteer for social causes.
 
 Contact Information 📫
-Feel free to reach out to me for collaborations, questions, or just to say hi:
+Feel free to reach out to me for collaborations, questions, or just to say hi:📧 Email: satvickmalhotraofficial@gmail.com
 
-📧 Email: satvickmalhotraofficial@gmail.com
 Technologies & Tools 🛠️
 Python
 C++
