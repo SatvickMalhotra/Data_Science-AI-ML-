@@ -12,7 +12,7 @@ Welcome to <strong>Data_Science-AI-ML-</strong>, a dynamic repository where the 
 Stay tuned for regular updates featuring everything from exploratory data analyses to complex machine learning models, all designed with efficiency, scalability, and robustness in mind.
 </p>
 Personal Introduction 🙋‍♂️
-I'm Satvick Malhotra, a data engineer at M-SWASTH Solutions, skilled in Python, SQL, Excel, Power BI, and more. I've played a pivotal role in optimizing business operations through data-driven strategies, showcasing my project leadership and innovative problem-solving abilities. My work includes developing AI-driven algorithms, enhancing data processing speeds significantly. Apart from being a tech enthusiast, I'm a food blogging expert and a dedicated volunteer for social causes.
+I'm Satvick Malhotra, a data engineer at M-SWASTH Solutions, skilled in Python, SQL, Excel, Power BI, and more. I've played a pivotal role in optimizing business operations through data-driven strategies, showcasing my project leadership and innovative problem-solving abilities. My work includes developing AI-driven algorithms, and enhancing data processing speeds significantly. Apart from being a tech enthusiast, I'm a food blogging expert and a dedicated volunteer for social causes.
 
 Contact Information 📫
 Feel free to reach out to me for collaborations, questions, or just to say hi:📧 Email: satvickmalhotraofficial@gmail.com
@@ -41,9 +41,9 @@ TensorFlow
 Matplotlib
 
 Additional Skills 💪
-AI Tools
-Prompting to AI
-Video Editing
+AI Tools, 
+Prompting to AI, 
+Video Editing, 
 Canva Designing
 <p align="center">
 🌐 Connect with me on LinkedIn for more insights and professional networking opportunities:
