@@ -1,0 +1,38 @@
+Objective
+The goal of the project was to analyze a dataset of Instagram influencers and build a predictive model to estimate the 'total_likes' an influencer might receive based on various features.
+
+Data Cleaning and Conversion
+We began by cleaning and formatting the dataset, ensuring that numerical data that had been represented as strings with suffixes like 'k', 'm', and 'b' were converted to appropriate numeric forms. Missing values, particularly in the 'country' column, were addressed by filling them with a placeholder ("Unknown").
+
+Exploratory Data Analysis (EDA)
+The EDA phase involved a variety of visualization and summary statistic techniques to understand the distributions, correlations, and patterns within the data. Histograms and box plots revealed the distribution of numerical features and helped identify outliers. The correlation matrix and pair plots helped us see how different features related to each other.
+
+Statistical Testing
+We performed statistical tests, including normality tests to check the distribution of the data, and t-tests to compare the mean 'total_likes' between influencers from different countries. The tests indicated that the data did not follow a normal distribution, and there was no statistically significant difference in 'total_likes' between influencers from the United States and India.
+
+Predictive Modeling
+Three different regression models were trained and evaluated:
+
+Decision Tree Regressor: A simple model that was quick to implement but resulted in the highest Mean Absolute Error (MAE), suggesting it was less accurate than other models.
+
+Random Forest Regressor: An ensemble model that improved upon the Decision Tree's performance, indicating that a more complex model could capture the patterns in the data better.
+
+XGBoost Regressor: The most complex model used, which had the lowest MAE, suggesting the best predictive performance among the three.
+
+Model Interpretation
+We extracted feature importance from the XGBoost model, which showed that 'new_post_avg_like' was the most influential feature, indicating its strong relationship with the 'total_likes'.
+
+Business Insights and Impacts
+The analysis and modeling provided several key insights that could impact business decisions:
+
+Content Engagement: The high importance of 'new_post_avg_like' suggests that strategies to increase engagement with new posts could lead to higher overall likes.
+Influencer Strategy: When selecting influencers for marketing campaigns, those with higher average likes on new posts may offer better engagement and reach.
+Data-Driven Decisions: The predictive model, especially XGBoost, could be used to forecast engagement and optimize content scheduling or promotion strategies.
+Future Directions
+To further enhance the project, we discussed several steps:
+
+Hyperparameter Tuning: To improve model performance by finding the optimal settings for model parameters.
+Cross-Validation: To ensure that the model's performance is stable and reliable across different data subsets.
+Model Explainability: To delve deeper into how the model makes predictions and ensure transparency and fairness.
+Feature Engineering: To potentially uncover more intricate relationships in the data that could improve model performance.
+Throughout the project, we emphasized the importance of aligning the data analysis and modeling efforts with specific business goals, ensuring that the outcomes would have practical and actionable implications. The project showcased how data science can provide valuable insights and aid in making informed decisions in the context of social media influence and marketing.
