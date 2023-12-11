@@ -1,0 +1,21 @@
+
+Netflix War Movies Data Analysis - Code Explanation
+
+1. Duration and Retention Analysis - Part 1
+--------------------------------------------
+- We load the Netflix war movies dataset using Pandas.
+- The duration column, assumed to be in the format '123 min', is converted to an integer representing the duration in minutes.
+- A scatter plot is created to visualize the relationship between movie duration and user retention percentage.
+- We calculate the Pearson correlation coefficient to quantify the linear correlation between duration and retention.
+
+2. Testing Algorithms and Methods - Part 1
+--------------------------------------------
+- We use an independent t-test to compare the mean user retention between short movies (less than 120 minutes) and long movies (120 minutes or longer).
+- The t-test helps us understand if the difference in mean retention rates between these two groups is statistically significant.
+
+Further Analysis (Not included in the notebook but discussed earlier)
+----------------------------------------------------------------------
+- Additional methods such as linear regression, duration binning, ANOVA, and Chi-Square tests were also discussed to provide a more comprehensive analysis.
+- These methods would further explore the relationship between movie duration and user retention and validate findings using different statistical approaches.
+
+Note: The actual implementation of these analyses depends on the specific structure and characteristics of the dataset being used.
