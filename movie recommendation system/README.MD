@@ -1,12 +1,12 @@
-# Movie Recommendation System
+# Movie Recommendation System🎬🎬
 
-## Introduction
+## Introduction📖📖📖
 Welcome to the *Movie Recommendation System* – a sophisticated tool designed for movie enthusiasts and cinephiles alike. Utilizing advanced algorithms, this system offers personalized movie suggestions based on genre and movie titles, leveraging the renowned IMDB's weighted rating formula for precision and reliability.
 
-## Why This System?
+## Why This System?⚙️⚙️⚙️
 In the era of streaming and abundant choices, finding the right movie can be overwhelming. This system simplifies the decision-making process, providing tailored suggestions that resonate with individual preferences and past viewing habits.
 
-## Key Features
+## Key Features👩🏻‍💼👩🏻‍💼
 - **Dual Recommendation Engines**:
   - **Genre-Based**: Dive into a world of movies sorted by genres. Whether you're in the mood for a thriller, romance, or a sci-fi adventure, get the best picks at your fingertips.
   - **Title-Based**: Discover movies similar to your favorites. This engine analyzes titles and recommends films that share similar themes, styles, or narratives.
@@ -20,7 +20,7 @@ Where:
 - `R` = Average rating of the movie
 - `C` = Mean vote across the whole report
 
-## How to Use
+## How to Use📋📋📋📋📋
 To make the most of this Movie Recommendation System, follow these simple steps:
 
 1. **Genre-Based Recommendations**:
@@ -35,7 +35,7 @@ To make the most of this Movie Recommendation System, follow these simple steps:
 
 Both notebooks are designed for ease of use, guiding you through each step.
 
-## Benefits
+## Benefits🫱🏼‍🫲🏾🫱🏼‍🫲🏾🫱🏼‍🫲🏾🫱🏼‍🫲🏾
 The Movie Recommendation System offers several advantages:
 
 - **Personalized Recommendations**: Tailors movie suggestions to your specific tastes, whether you're driven by genre or inspired by a particular movie title.
