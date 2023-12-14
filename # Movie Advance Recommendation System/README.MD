@@ -13,8 +13,8 @@ The recommendation system operates on the principle of content-based filtering. 
 - Employs Cosine Similarity to identify movies with similar content.
 - Provides personalized movie recommendations.
 
-##Usage
-#Follow these steps to utilize the movie recommendation system:
+## Usage
+# Follow these steps to utilize the movie recommendation system:
 
 - Load your movie dataset.
 - Preprocess the data to combine genres, keywords, and overviews.
@@ -22,8 +22,8 @@ The recommendation system operates on the principle of content-based filtering. 
 - Calculate Cosine Similarity between movies.
 - obtain recommendations based on a given title and description.
 
-##Example
-#To get movie recommendations similar to "Toy Story" with a focus on friendship and adventure, use the following code:
+## Example
+# To get movie recommendations similar to "Toy Story" with a focus on friendship and adventure, use the following code:
 -recommended_movies = get_recommendations('Toy Story', 'A story about friendship and adventure') 
 -print(recommended_movies)
 
